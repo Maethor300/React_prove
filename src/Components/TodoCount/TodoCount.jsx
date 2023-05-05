@@ -1,8 +1,8 @@
 import React from 'react'
-
-function TodoCount() {
+import "./TodoCount.css"
+function TodoCount({total, completed}) {
   return (
-    <div>TodoCount</div>
+     <h1 className='TodoCounter'>Completado <span>{completed}</span> de <span>{total}</span> todos</h1> 
   )
 }
 

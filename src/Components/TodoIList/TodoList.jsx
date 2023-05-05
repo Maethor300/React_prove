@@ -1,8 +1,8 @@
 import React from 'react'
-
-function TodoList(props) {
+import "./TodoList.css"
+function TodoList({children}) {
   return (
-    <div><ul>{props.children}</ul></div>
+    <ul className='TodoList'>{children}</ul> 
   )
 }
 
